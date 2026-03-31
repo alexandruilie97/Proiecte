@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    padding: 0;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    background-color:red;
+    height: 50px;
+    font-family: "Share Tech", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+}
+
+nav ul li{
+    background-color: aqua;
+    border: 2px solid orange;
+    padding: 14px;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+    color: red;
+}
+
+nav ul li:hover, .curent{
+    background-color: orange;
+}

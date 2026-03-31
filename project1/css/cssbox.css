@@ -1,0 +1,42 @@
+#first{
+ border: 5px solid orange;
+ background-color: blueviolet;
+ border-radius: 20px;
+ outline: 10px solid rgb(22, 201, 70);
+ padding: 10px;
+}
+
+main{
+    background-color: rgb(101, 144, 231);
+}
+
+#second{
+    border:5px ridge yellowgreen;
+    background-color: crimson;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 30px 10px 10px black;
+}
+
+#third{
+    border: 5px dotted blue;
+    margin: 0 5px;
+    padding: 5px;
+    background-color: darkblue;
+}
+
+#fourth{
+    border: 5px dashed darkkhaki;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+div{
+    width: 22%;
+    display: inline-block;
+}
+
+main div{
+    vertical-align: top;
+}

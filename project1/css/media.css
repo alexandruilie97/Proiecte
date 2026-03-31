@@ -1,0 +1,23 @@
+@media (max-width: 250px) {
+    #ex2, #ex3, #ex4{
+        display: none;
+    }
+}
+
+@media (min-width: 251px) and (max-width: 580px) {
+    #ex1, #ex3, #ex4{
+        display: none;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 980px) {
+    #ex1, #ex2, #ex4{
+        display: none;
+    }
+}
+
+@media  (min-width: 981px) {
+    #ex1, #ex2, #ex3{
+        display: none;
+    }
+}
