@@ -1,0 +1,23 @@
+main h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+main{
+    background-color: blueviolet;
+    margin: 0;
+    
+}
+
+dl{
+    margin:0;
+    text-align: center;
+}
+
+dl dd ul li{
+    list-style: none;
+}
+
+dl dt{
+    text-decoration: underline;
+}

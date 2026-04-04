@@ -1,0 +1,38 @@
+main{
+    margin: 0;
+    font-family: "Share Tech", sans-serif;
+    background-image: url(../img/image_2026-04-02_223243572.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: bisque;
+    width: 100%;
+   
+    
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    color: rgb(20, 211, 148);
+}
+
+table{
+    margin: auto;
+    text-align: center;
+
+}
+
+tr, td{
+    border: 2px solid blueviolet;
+    padding: 3px;
+    border-radius: 25px;
+}
+
+th{
+    border: 2px solid black;
+}
+
+#fcarges{
+    background-color: violet;
+    color: white;
+}

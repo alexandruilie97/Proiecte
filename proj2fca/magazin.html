@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Arges</title>
+    <meta name="keywords" content="fcarges">
+    <meta name="author" content="Ilie Alexandru">
+    <meta name="description" content="fcarges">
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?familyShare+Tech&display=swap" rel="stylesheet">
+    <!--font pentru titlu si nav
+    .share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <!--font pentru restul paginii
+    .slabo-27px-regular {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    }-->
+    <link rel="stylesheet" href="./assets/css/headnav.css">
+    <link rel="stylesheet" href="./assets/css/magazin.css">
+</head>
+<body>
+    <header>
+        <h1>Din 1953 pana la infinit...</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./home.html">Acasa</a></li>
+            <li><a href="./lot.html">Lot</a></li>
+            <li><a href="./clasament.html">Clasament</a></li>
+            <li class="activ"><a href="./magazin.html">Magazin</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>Acum puteti comanda online echipamente promotionale cu FC Arges, cu ajutorul formularului de mai jos.</p>
+        <form action="" method="post">
+            <div>
+             <label for="name">Nume</label>
+            <input type="text" name="name" id="name" placeholder="Va rugam introduceti numele" required>
+            </div>
+            <div>
+            <label for="surname">Prenume</label>
+            <input type="text" name="surname" id="surname" placeholder="Va rugam introduceti prenumele" required>
+            </div>
+            <div>
+                <label for="telefon">Telefon</label>
+                <input type="tel" name="telefon" id="telefon" placeholder="Va rugam introduceti numarul de telefon" min="10" max="10">
+            </div>
+           <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="Va rugam introduceti emailul">
+           </div>
+           <div>
+            <label for="adresa">Adresa</label>
+            <input type="text" name="adresa" id="adresa" placeholder="Va rugam introduceti adresa">
+           </div>
+           <fieldset>
+            <legend>Plata</legend>
+            <div>
+                <label for="numarcard">Numar card</label>
+                <input type="number" name="numarcard" id="numarcard" placeholder="Va rugam introduceti numarul de pe card" required>
+            </div>
+            <div>
+                <label for="dataexpirare">Data Expirare</label>
+                <input type="month" name="dataexpirare" id="dataexpirare" required>
+            </div>
+            <div>
+                <label for="cvv">CVV</label>
+                <input type="password" name="cvv" id="cvv" min="3" max="3">
+            </div>
+           </fieldset>
+           <fieldset>
+            <legend>Alege produsul</legend>
+            <div>
+            <label for="produs">Selectati produsul dorit</label>
+            <select name="produs" id="produs" required>
+                <option value="tricou">Tricou</option>
+                <option value="minge">Minge</option>
+                <option value="esarfa">Esarfa</option>
+                <option value="fular">Fular</option>
+            </select>
+            </div>
+            <div>
+                <label for="mesaj">Mesaj</label>
+                <textarea name="mesaj" id="mesaj" cols="30" rows="10" ></textarea>
+            </div>
+           </fieldset>
+           <div class="checkbox">
+            <input type="checkbox" name="reguli" id="reguli">
+            <label for="reguli">Am citit regulamentul si sunt de acord cu cele mentionate in regulament.</label>
+           </div>
+           <div>
+            <button type="submit">Trimite</button>
+           </div>
+        </form>
+    </main>
+   <footer>
+          <div><a href="./clasament.html">&#8592;</a><a href="./magazin.html">4</a><a href="" style="visibility: hidden;">&#8594;</a></div>
+    </footer>
+</body>
+</html>

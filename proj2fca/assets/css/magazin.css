@@ -1,0 +1,53 @@
+main{
+    margin: 0;
+    background-color: #FFD700;
+}
+
+main p{
+    margin: 0;
+    text-align: center;
+}
+
+form{
+    padding: 20px;
+    border: 2px solid violet;
+    max-width: 500px;
+    margin: auto;
+    background-color: #6A0DAD;
+    
+}
+
+label{
+    margin: 0 10px;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+      
+}
+input{
+    margin: 0 15px;
+    padding: 5px;
+    display: inline-block;
+    width: 250px;
+}
+
+
+.checkbox input{
+    text-align: left;
+    width: 30px;
+}
+
+.checkbox label{
+    width: 350px;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+button:hover{
+    background-color: purple;
+    color: white;
+}
