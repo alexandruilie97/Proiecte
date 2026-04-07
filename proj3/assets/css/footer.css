@@ -1,0 +1,13 @@
+footer{
+    font-family: "Fjalla One", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+p > a {
+    text-decoration: none;
+    display: inline-block;
+    padding:  0 15px;
+    color: darkorchid;
+}

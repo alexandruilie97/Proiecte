@@ -1,0 +1,25 @@
+main{
+    font-family: "Oswald", sans-serif;
+    background-color: darkviolet;
+    margin: 0;
+    display: flex;
+}
+
+.lateral1{
+    width: 30%;
+    color: whitesmoke;
+    padding:15px;
+}
+
+.central{
+    width: 35%;
+    border: 15px groove white;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.lateral2{
+    width: 30%;
+    color: whitesmoke;
+    padding: 15px;
+}
