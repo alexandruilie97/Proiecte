@@ -19,6 +19,7 @@ main > section.containergrid > div{
 }
 
 figure img {
+    
     width: 100%;
     height: 350px;  /* toate imaginile la aceeași înălțime */
     object-fit: cover;

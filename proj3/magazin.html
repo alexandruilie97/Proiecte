@@ -22,7 +22,7 @@
      <!--font-family: "Fjalla One", sans-serif; font pentru footer--->
      <link rel="stylesheet" href="./assets/css/headernav.css">
      <!--Primul link css pentru zona de header si nav-->
-     <link rel="stylesheet" href="">
+     <link rel="stylesheet" href="./assets/css/magazin.css">
      <!--Al2lea link css pentru zona de main-->
      <link rel="stylesheet" href="./assets/css/footer.css">
      <!--Al3lea link css pentru zona de footer-->
@@ -52,10 +52,48 @@
         </ul>
     </nav>
     <main>
-     to be continued
+     <h2>Comanda acum produse online!</h2>
+     <form action="">
+        <fieldset>
+            <legend>Date personale</legend>
+            <div>
+                <label for="nume">Nume</label>
+                <input type="text" name="nume" id="nume">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="telefon">Telefon</label>
+                <input type="tel" name="telefon" id="telefon" min="10" max="10">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Date card</legend>
+            <div>
+                <label for="card">Numar Card</label>
+                <input type="password" name="card" id="card" min="16" max="16">
+                <label for="expirare">Data Expirare</label>
+                <input type="month" name="expirare" id="expirare">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Selectati produsul dorit</legend>
+            <input type="radio" name="tricou" id="tricou">
+            <label for="tricou">Tricou</label>
+            <input type="radio" name="esarfa" id="esarfa">
+            <label for="esarfa">Esarfa</label>
+            <input type="radio" name="minge" id="minge">
+            <label for="minge">Minge</label>
+        </fieldset>
+        <div>
+            <label for="mesaj">Mesaj</label>
+            <textarea name="mesaj" id="mesaj" cols="40" rows="20"></textarea>
+        </div>
+        <div>
+            <button type="submit">Plaseaza comanda</button>
+        </div>
+     </form>
     </main>
     <footer>
-     <p><a href="">&#8592;</a><a href="./home.html">1</a><a href="">&#8594;</a></p>
+     <p><a href="./trans2324.html">&#8592;</a><a href="./magazin.html">4</a><a href="" style="visibility: hidden;">&#8594;</a></p>
     </footer>
 </body>
 </html>

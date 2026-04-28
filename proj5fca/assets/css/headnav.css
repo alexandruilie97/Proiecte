@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+ header{
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    background-image: url(../images/fc-arges-fc-metaloglobus-bucuresti-superliga-superbet-31-08-2025.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ header > div.titluri{
+   color: blueviolet;
+   text-align: center;
+    
+ }
+
+ nav {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: darkviolet;
+ }
+
+ nav > ul.meniu{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+ }
+
+ nav > ul.meniu >li{
+    list-style: none;
+    border: 2px solid violet;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    background-color: purple;
+    position: relative;
+ }
+
+ nav > ul.meniu > li > a {
+   text-decoration: none;
+   color: aliceblue;
+   display: block;
+ }
+
+ nav > ul.meniu >li > ul.submeniu{
+   margin: 0;
+   padding: 0;
+   top: 100%;
+   left: 0;
+   display: none;
+ }
+
+ nav > ul.meniu > li:hover > ul.submeniu{
+   display: block;
+   position: absolute;
+   width: 100%;
+ }
+
+ nav > ul.meniu > li:hover > ul.submeniu > li{
+   background-color: purple;
+   list-style: none;
+   border: 2px solid violet;
+   padding: 5px;
+ }
+
+ nav > ul.meniu > li:hover > ul.submeniu > li > a {
+   text-decoration: none;
+   color: white;
+   display: block;
+ }
+
+  nav > ul.meniu > li.activ, nav > ul.meniu > li:hover,nav > ul.meniu > li:hover > ul.submeniu > li:hover{
+   background-color: violet;
+ }
+
+
+ 

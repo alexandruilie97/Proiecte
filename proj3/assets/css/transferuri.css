@@ -1,0 +1,22 @@
+main{
+    font-family: "Oswald", sans-serif;
+}
+
+main > section.iarna{
+    display: flex;
+    border: 2px solid violet;
+    margin: 15px;
+    padding: 20px;
+}
+
+main > section.iarna > div.veniri, main > section.iarna >div.plecari{
+    flex: 1;
+    padding: 10px;
+}
+
+section.iarna th,tr,td{
+    border: 3px ridge blueviolet;
+    text-align: center;
+    padding: 3px;
+    
+}

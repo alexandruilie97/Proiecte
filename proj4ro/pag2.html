@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echipa nationala</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+    <meta name="description" content="echipa nationala">
+    <meta name="keywords" content="echipa nationala">
+    <meta name="author" content="Ilie Alexandru">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--font-family: "Saira Stencil", sans-serif; cod css pentru font-->
+    <link rel="stylesheet" href="./assets/css/top.css">
+</head>
+<body>
+    <script>
+        let d = new Date();
+        let ora = d.getHours();
+        if(ora <= 6){
+          alert('Noapte buna, romani !')
+        }
+        else if(ora > 6 && ora <=11){
+            alert('Buna ziua, romani!')
+        }
+        else if(ora > 11 && ora <=18){
+            alert('Buna ziua, romani !')
+        }
+        else{
+            alert('Noapte buna, romani !')
+        }
+    </script>
+   <header>
+    <h1>Toata Romania sustine Romania !!</h1>
+    <h2>Uniti sub tricolor</h2>
+    <h3>Din toata inima pentru Romania!</h3>
+   </header>
+   <nav>
+      <ul class="meniu">
+        <li class="activ"><a href="">Loturi de jucatori</a>
+            <ul class="submeniu">
+                <li><a href="pag1.html">Nationala mare</a></li>
+                <li><a href="pag2.html">Nationala U21</a></li>
+                <li><a href="">Nationala U20</a></li>
+                <li><a href="">Nationala U19</a></li>
+            </ul>
+        </li>
+        <li><a href="">Staff</a>
+            <ul class="submeniu">
+                <li><a href="">Staff actual</a></li>
+                <li><a href="">Lista selectioneri</a></li>
+            </ul>
+        </li>
+        <li><a href="">Istoric</a></li>
+        <li><a href="">Comanda produse</a></li>
+      </ul>
+   </nav>
+   <main>
+     <div>
+        <form action="">
+          <fieldset>
+            <legend>Date personale</legend>
+            <div>
+                <label for="nume">Nume</label>
+                <input type="text" name="nume" id="nume" placeholder="Va rugam introduceti numele" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="telefon">Telefon</label>
+                <input type="tel" name="telefon" id="telefon">
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Date card</legend>
+            <div>
+            <label for="numarcard">Numar card</label>
+            <input type="text" name="numarcard" id="numarcard" required min="16" max="16">
+            </div>
+            <div>
+            <label for="dataexpirare">Data Expirare</label>
+            <input type="date" name="data expirare" id="data expirare">
+            </div>
+            <div>
+                <label for="cvv">CVV</label>
+                <input type="password" name="cvv" id="cvv">
+            </div>
+          </fieldset>
+          <div>
+            <label for="optiuni">Alege optiunea</label>
+             <select name="optiuni" id="optiuni" required>
+                <option value="0"></option>
+                <option value="1">Manusi</option>
+                <option value="2">Tricou</option>
+                <option value="3">Ghete</option>
+                <option value="4">Pantaloni</option>
+             </select>
+             <div>
+                <button>Plaseaza Comanda</button>
+             </div>
+            
+          </div>
+        </form>
+     </div>
+   </main>
+</body>
+</html>

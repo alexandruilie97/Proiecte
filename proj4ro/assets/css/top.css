@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: "Saira Stencil", sans-serif;;
+}
+/*header si titlurile*/
+header{
+    height: 340px;
+    margin: 0;
+    background-image: url(../img/romania-meci-turcia.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+header h1{
+    color: blue;
+}
+
+header h2{
+    color: yellow;
+}
+
+header h3{
+    color: red;
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+nav > ul.meniu{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+nav > ul.meniu > li{
+    flex: 1;
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+nav > ul.meniu > li > a {
+    text-decoration: none;
+    color: red;
+    display: block;
+}
+
+nav > ul.meniu > li >ul.submeniu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+nav > ul.meniu > li:hover > ul.submeniu{
+    display: block;
+    background-color: yellow;
+    
+}
+
+ul.submeniu > li{
+    list-style: none;
+    border: 2px solid red;
+    padding: 2px;
+}
+
+ul.submeniu > li > a {
+    text-decoration: none;
+    display: block;
+}
+nav > ul.meniu > li:hover{
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+ul.submeniu > li:hover{
+    background-color: blue;
+}
+
+ul.submeniu > li:hover> a{
+    color: yellow;
+}
+
+.activ{
+    background-color: darkblue;
+}
+
+main{
+    margin: 0;
+    background-color: aqua;
+}
+
+form{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+label {
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+}
+
+input{
+    width: 200px;
+    display: inline-block;
+    
+
+}
